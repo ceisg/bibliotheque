@@ -83,7 +83,7 @@ public class BibliothequeAvecTableau {
 
 		System.out.println("-----------------------" + nbDoc + " documents -------------------------------");
 
-		// 1ère Methode avec for
+		
 		for (int i = 0; i < nbDoc; i++)
 			System.out.println(documents[i].getClass().getSimpleName() + " :  " + documents[i].toString());
 
